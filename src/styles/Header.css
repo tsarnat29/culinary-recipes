@@ -1,0 +1,31 @@
+nav {
+  /* width: 100%; */
+  width: 450px;
+  height: auto;
+  margin-bottom: 15px;
+  background-color: rgb(19, 3, 3);
+}
+nav h4 {
+  color: white;
+}
+.active h4 {
+  color: rgb(255, 215, 0);
+}
+.Header ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.Header ul {
+  height: 100%;
+}
+.Header ul li {
+  height: 100%;
+  font-size: 1.2em;
+  line-height: 2;
+}
+.Header li {
+  list-style: none;
+  border-bottom: none;
+}

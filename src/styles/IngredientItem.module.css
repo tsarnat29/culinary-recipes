@@ -1,0 +1,29 @@
+.ingredient {
+  display: flex;
+  justify-content: space-between;
+}
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: start;
+  border-bottom: 1px solid black; 
+}
+.li:nth-child(1) {
+  width: 55%;
+}
+.li:nth-child(2) {
+  width: 28%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.li:nth-child(3) {
+  width: 17%;
+}
+.li {
+  padding:2px 5px 5px 2px;
+}
+.li {
+  list-style: none;
+}

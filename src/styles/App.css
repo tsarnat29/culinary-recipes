@@ -1,0 +1,74 @@
+ /* несколько классов: className={`${s.item} ${s.active}`} */
+ /* className={[cl.myModlal, cl.active].join(' ')} -join возвращает строку из двух классов, склеенніх по пробелу */
+ /* className = {page ===p ? 'page page__current' : 'page'} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+ #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+body {
+  width: 450px;
+  margin: 0 auto;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  /* border: 3px solid goldenrod; */
+}
+.App {
+  max-width: 400px;
+  min-width: 280px;
+}
+
+hr {
+  height: 4px;
+  border: none;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+  /* margin: 15px 0 15px 30px; */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.recipe{
+  padding: 2px 2px 0ox 2px;
+  border: 2px solid rgb(45, 6, 109);
+  margin-top: 15px;
+  /* margin-left: 30px; */
+}
+form {
+  /* margin-left: 30px; */
+  border: 2px solid black;
+}
+.form_inp, .inp_group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.form_inp {
+  /* flex-wrap: wrap; */
+}
+.ingr, .form_inp input:nth-child(1) {
+  flex-grow: 1;
+}
+.amount, .form_inp input:nth-child(2) {
+  width: 28%;
+}
+.measurement {
+  width: 17%;
+}
+/* .btn_delete {
+  padding: 0 15px;
+} */
+select {
+  border: 1px solid black;
+}

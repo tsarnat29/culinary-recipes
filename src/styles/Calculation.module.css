@@ -1,0 +1,23 @@
+.wrapCalc {
+  text-align: center;
+  max-width: 400px;
+  margin-left: 5px;
+}
+.calc {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.calc {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.emojiCook {
+  list-style: none;
+  text-align: start; 
+}
+.emojiCook li::before {
+  content: "👩‍🍳";
+  margin-right: 15px;
+  font-size: 20px;
+}
