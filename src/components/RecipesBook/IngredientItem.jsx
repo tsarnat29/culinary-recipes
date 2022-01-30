@@ -15,6 +15,7 @@ const IngredientItem = ({onMarked, fPotreb, ingredient, coef, id, btnDelete, fDe
       let newAmount=prompt('Введіть іншу кількість для продукта '+ingredient.ingr);
       if (/^[1-9]\d*(\.\d+)?$/.test(newAmount)) {
         newCoef = +newAmount/ingredient.amount;
+        newCoef = newCoef.toFixed(2);
       } else newAmount =prompt('Помилка! Спробуйте ще раз!');
       if (newCoef>0) {
         onMarked(newCoef);
