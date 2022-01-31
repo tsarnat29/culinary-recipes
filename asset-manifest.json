@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/culinary-recipes/static/css/main.7756510c.css",
-    "main.js": "/culinary-recipes/static/js/main.fcc326cb.js",
+    "main.js": "/culinary-recipes/static/js/main.82696e95.js",
     "index.html": "/culinary-recipes/index.html",
     "main.7756510c.css.map": "/culinary-recipes/static/css/main.7756510c.css.map",
-    "main.fcc326cb.js.map": "/culinary-recipes/static/js/main.fcc326cb.js.map"
+    "main.82696e95.js.map": "/culinary-recipes/static/js/main.82696e95.js.map"
   },
   "entrypoints": [
     "static/css/main.7756510c.css",
-    "static/js/main.fcc326cb.js"
+    "static/js/main.82696e95.js"
   ]
 }
